@@ -1,0 +1,16 @@
+[user]
+	email = blastedaway94@gmail.com
+	name = AmbujSE
+[http]
+	version = HTTP/2
+	postBuffer = 157286400
+[core]
+	compression = 0
+[init]
+	defaultbranch = main
+[credential "https://github.com"]
+	helper = 
+	helper = !/home/ambujse/.local/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/home/ambujse/.local/bin/gh auth git-credential
